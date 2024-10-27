@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import pickle
 
 # Load your model and data
 with open('66130700307recommendation_movie_svd.pkl', 'rb') as file:
